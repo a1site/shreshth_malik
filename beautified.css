@@ -137,11 +137,11 @@ z-index: -1;
 
 .hero {
 
-  background-image: url("/customerpics/c0.png");
+  background-image: url("customerpics/c0.png");
   transition: background 0.3s ease;
 }
 .hero.colored {
-  background-image: url("/customerpics/c2.png");
+  background-image: url("customerpics/c2.png");
 
 }
 
