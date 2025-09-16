@@ -19,12 +19,12 @@ let isOn = false;
 // ---------------- Lamp Images (desktop & mobile) ----------------
 const lampImages = {
   desktop: {
-    on: "/art/lamp_on.png",
-    off: "/art/lamp_off.png"
+    on: "art/lamp_on.png",
+    off: "art/lamp_off.png"
   },
   mobile: {
-    on: "/art/lamp_on_mobile.png",
-    off: "/art/lamp_off_mobile.png"
+    on: "art/lamp_on_mobile.png",
+    off: "art/lamp_off_mobile.png"
   }
 };
 
@@ -204,5 +204,6 @@ function next() {
   });
   counter = (counter + 1) % phrases.length;
 }
+
 
 next();
